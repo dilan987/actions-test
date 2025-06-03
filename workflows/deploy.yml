@@ -1,0 +1,13 @@
+name: deploy testing
+
+on: push
+
+jobs:
+
+  job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Hello
+      run: echo "hello world"
+      
